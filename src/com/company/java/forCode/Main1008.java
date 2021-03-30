@@ -1,4 +1,4 @@
-package com.company;
+package com.company.java.forCode;
 
 import java.util.Scanner;
 

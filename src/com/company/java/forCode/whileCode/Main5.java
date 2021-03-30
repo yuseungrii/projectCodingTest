@@ -1,4 +1,4 @@
-package com.company.whileCode;
+package com.company.java.forCode.whileCode;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.company.forCode;
+package com.company.java.forCode;
 
 import java.util.*;
 import java.io.*;

@@ -1,33 +1,33 @@
-package com.company.java.arrayCode;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
-import java.util.StringTokenizer;
-
-public class Q10818_1 {
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        Integer.parseInt(br.readLine());	//첫 줄 N 은 안쓰이므로 입력만 받는다.
-        StringTokenizer st = new StringTokenizer(br.readLine()," ");
-
-        int max = -1000001;
-        int min = 1000001;
-
-        while(st.hasMoreTokens()) {
-            int val = Integer.parseInt(st.nextToken());
-            if(val>max) {
-                max = val;
-            }
-            if(val<min) {
-                min = val;
-            }
-        }
-        System.out.println(min + " " + max);
-    }
-}
+//package com.company.java.arrayCode;
+//
+//import java.io.BufferedReader;
+//import java.io.InputStreamReader;
+//import java.io.IOException;
+//import java.util.StringTokenizer;
+//
+//public class Q10818_1 {
+//
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//        Integer.parseInt(br.readLine());	//첫 줄 N 은 안쓰이므로 입력만 받는다.
+//        StringTokenizer st = new StringTokenizer(br.readLine()," ");
+//
+//        int max = -1000001;
+//        int min = 1000001;
+//
+//        while(st.hasMoreTokens()) {
+//            int val = Integer.parseInt(st.nextToken());
+//            if(val>max) {
+//                max = val;
+//            }
+//            if(val<min) {
+//                min = val;
+//            }
+//        }
+//        System.out.println(min + " " + max);
+//    }
+//}
 
 //    문제 설명
 //    수포자는 수학을 포기한 사람의 준말입니다. 수포자 삼인방은 모의고사에 수학 문제를 전부 찍으려 합니다.
